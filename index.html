@@ -1,0 +1,21 @@
+<div class="center">
+    <div class="form">
+      <div class="form-element">
+          <!--Nom du la data du QR code généré-->
+        <label for="data-ip">Entrer un nom </label>
+        <input type="text" id="data-ip">
+      </div>
+      <div class="form-element">
+          <!--Bouton pour générer-->
+        <button>Générer</button>
+      </div>
+    </div>
+    <div class="qr-img">
+      <img src="">
+    </div>
+  </div>
+
+  <!--téléchargement ( le téléchargement ne marche actuellement pas parce que l'image n'apparait pas, on peut cependant faire apparaitre celle de test dans le .js)-->
+  <a href="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=" download>
+    <img class = "CodeQR" src="https://cdn.discordapp.com/attachments/687245057149239297/799653854235983900/qr-code20fr.png" alt="CodeQR" width="200" height="200">
+  </a>     <!--Le lien discord est un visuel par défaut pour montrer ou apparaitrait l'image si elle existait-->
